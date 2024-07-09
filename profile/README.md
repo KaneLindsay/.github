@@ -1,7 +1,7 @@
 
 ## Pilot projects exploring the use of VoucherVision at RBG Kew
 
-[VoucherVision](https://github.com/Gene-Weaver/VoucherVision) is a set of tools which streamline the creation of structured metadata from herbarium specimen images.
+[VoucherVision](https://github.com/Gene-Weaver/VoucherVision) is a set of tools which streamline the creation of structured metadata from herbarium specimen images using computer vision and large language models.
 RBG Kew is currently working on a mass digitisation project which is generating a large number of specimen images and structured metadata, and has explicit quality assurance (QA) steps in the digitisation pipeline.
 
 Discussions between RBG Kew and Will Weaver of Voucher Vision have proposed a number of pilots to explore how we could use and extend Voucher Vision, and this github organisation is a container for these projects.
