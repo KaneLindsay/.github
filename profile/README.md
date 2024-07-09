@@ -6,6 +6,16 @@ RBG Kew is currently working on a mass digitisation project which is generating 
 
 Discussions between RBG Kew and Will Weaver of Voucher Vision have proposed a number of pilots to explore how we could use and extend Voucher Vision, and this github organisation is a container for these projects.
 
+## Background information
+
+### Voucher Vision
+
+- Presentation "The Future of Natural History Transcription: Navigating AI advancements with VoucherVision and the Specimen Label Transcription Project (SLTP)" at Biodiversity Information Standards (TDWG) 2023 conference: [video](https://www.youtube.com/watch?v=9gFQZNWC-Dg), [abstract](https://doi.org/10.3897/biss.7.113067)
+
+### Kew herbarium digitisation project
+
+(TBC)
+
 ## Pilot projects
 
 Currently the pilots are:
