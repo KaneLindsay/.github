@@ -31,6 +31,7 @@ Currently the pilots are:
 - Sarah Phillips - senior digital collections manager, RBG Kew. [Institutional profile](https://www.kew.org/science/our-science/people/sarah-w-phillips)
 - Alan Paton - head of science collections, RBG Kew. [Institutional profile](https://www.kew.org/science/our-science/people/alan-paton)
 - Kate Gill - digital priority leader, RBG Kew. [Institutional profile](https://www.kew.org/science/our-science/people/kate-gill)
+- Kane Lindsay - science intern, RBG Kew. 
 
 ## Contributing
 
