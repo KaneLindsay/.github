@@ -14,7 +14,8 @@ Discussions between RBG Kew and Will Weaver of Voucher Vision have proposed a nu
 
 ### Kew herbarium digitisation project
 
-(TBC)
+- [Digitising Kew's collections](https://www.kew.org/science/digitising-kews-collections)
+- [Kew herbarium data](https://www.gbif.org/dataset/cd6e21c8-9e8a-493a-8a76-fbf7862069e5) in the [Global Biodiversity Information Facility](https://gbif.org), and [research works](https://www.gbif.org/resource/search?contentType=literature&gbifDatasetKey=cd6e21c8-9e8a-493a-8a76-fbf7862069e5) that cite this data
 
 ## Pilot projects
 
