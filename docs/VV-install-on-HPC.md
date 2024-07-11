@@ -18,14 +18,17 @@ You will need to be able to execute commands in three different places, ie:
 
 The instructions below note which machine you should run each on:
 
-1. *(Local machine)* Open a command windows and log into the HPC head node `gruffalo.cropdiversity.ac.uk`
+1. *(Local machine)* Open a command windows and log into the HPC head node using `ssh <username>@gruffalo.cropdiversity.ac.uk`
 1. *(head node)* [Install bioconda](https://help.cropdiversity.ac.uk/bioconda.html)
 1. *(head node)* Request an interactive shell on a node with a GPU: `srsh --partition gpu --gpus=1` Note the name of the compute node that you are assigned - you will need it later
 1. *(compute node)* Follow [VoucherVision setup instructions](https://github.com/Gene-Weaver/VoucherVision?tab=readme-ov-file#installing-vouchervision-using-conda)
-1. *(compute node)* Run Voucher Vision using the instructions [here](https://github.com/Gene-Weaver/VoucherVision?tab=readme-ov-file#run-vouchervision). Note the port that the web server is listening on.
+1. *(compute node)* Run Voucher Vision using the instructions [here](https://github.com/Gene-Weaver/VoucherVision?tab=readme-ov-file#run-vouchervision). Note the port that the web server is listening on to be used in the next step.
 1. *(local machine)* Set up port forwarding. In a command line shell in your local environment, execute:
    
-    `ssh -L8502:GPU_MACHINE_NAME.cropdiversity.ac.uk:8502 YOUR_HPC_USER_NAME@gruffalo.cropdiversity.ac.uk`
+    `ssh -L <PORT>:<GPU_MACHINE_NAME>:<PORT> YOUR_HPC_USER_NAME@gruffalo.cropdiversity.ac.uk`
 
-   Substitute GPU_MACHINE_NAME and YOUR_HPC_USER_NAME appropriately.
-1. *(local machine)* Open the VoucherVision web interface in your local browser at https://127.0.0.1:8502
+   Substitute <GPU_MACHINE_NAME> and <YOUR_HPC_USER_NAME> appropriately.
+   
+   The <GPU_MACHINE_NAME> will be one of 'jaws', 'thanos', 'twiki', 'pigwidgeon', or 'nagini' or similar as noted on https://help.cropdiversity.ac.uk/gpu.html.
+
+1. *(local machine)* Open the VoucherVision web interface in your local browser at `https://127.0.0.1:<PORT>` or `https://localhost:<PORT>`
